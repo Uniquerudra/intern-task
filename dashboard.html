@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Intern Portal</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard-container">
+            <div class="header">
+                <h2>Intern Dashboard</h2>
+                <div class="header-buttons">
+                    <a href="leaderboard.html" class="button-link">Leaderboard</a>
+                    <button id="logoutBtn">Logout</button>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Welcome, <span id="internName"></span></h3>
+                <p>Your Referral Code: <strong id="referralCode"></strong></p>
+                <p>Total Donations Raised: <strong id="donations"></strong></p>
+            </div>
+            <div class="card">
+                <h3>Rewards & Unlockables</h3>
+                <ul class="rewards-list">
+                    <li><span class="unlocked">🔒</span> Certificate of Internship</li>
+                    <li><span class="locked">🔒</span> LinkedIn Recommendation</li>
+                    <li><span class="locked">🔒</span> Mentorship </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
